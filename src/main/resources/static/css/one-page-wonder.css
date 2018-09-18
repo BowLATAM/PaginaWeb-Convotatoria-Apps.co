@@ -64,16 +64,16 @@ h6 {
 }
 
 header.masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff0000), to(#000000));
-  background: linear-gradient(0deg, #ff0000 0%, #000000 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background: -webkit-gradient(linear, left bottom, left top, from(#B40404), to(#FF8000));
+    background: linear-gradient(0deg, #B40404 0%, #FF8000 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 header.masthead .masthead-content {
@@ -89,13 +89,13 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#ff0000));
-  background: linear-gradient(0deg, #000000 0%, #ff0000 100%);
-}
+    header.masthead .bg-circle {
+        z-index: 0;
+        position: absolute;
+        border-radius: 100%;
+        background: -webkit-gradient(linear, left bottom, left top, from(#FF8000), to(#B40404));
+        background: linear-gradient(0deg, #FF8000 0%, #B40404 100%);
+    }
 
 header.masthead .bg-circle-1 {
   height: 90rem;
@@ -139,18 +139,18 @@ header.masthead .bg-circle-4 {
 }
 
 .bg-primary {
-  background-color: #000000 !important;
+    background-color: #FF8000 !important;
 }
 
 .btn-primary {
-  background-color: #000000;
-  border-color: #000000;
+    background-color: #FF8000;
+    border-color: #FF8000;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #000000 !important;
-  border-color: #000000 !important;
-}
+    .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+        background-color: #FF8000 !important;
+        border-color: #FF8000 !important;
+    }
 
 .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
